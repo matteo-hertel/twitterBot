@@ -119,5 +119,6 @@ module.exports = {
     getFollowedIds,
     getFollowedList,
     follow,
-    followStatus
+    followStatus,
+    dm: require("./dm")
 }

@@ -16,5 +16,7 @@ const bot = new Twit({
 // botActions.post(bot, `Hello world!`);
 // botActions.getFollowerList(bot, `MHDev91`);
 // botActions.getFollowedList(bot, `MHDev91`);
-// botActions.follow(bot, `angular`);
-botActions.followStatus(bot, `angular`)
+// botActions.follow(bot, `GraphQL`);
+// botActions.followStatus(bot, `GraphQL`)
+// botActions.followStatus(bot, `GraphQL`)
+// botActions.dm.send(bot, `Papoi? (this is a bot!)`, `MHDev91`);
