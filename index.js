@@ -1,6 +1,7 @@
 require('dotenv').config({
     path: `${__dirname}/.env`
 });
+const botActions = require("./modules/twitterBot/actions");
 
 const Twit = require("twit");
 
@@ -12,3 +13,8 @@ const bot = new Twit({
     timeout_ms: 60 * 1000
 });
 
+// botActions.post(bot, `Hello world!`);
+// botActions.getFollowerList(bot, `MHDev91`);
+// botActions.getFollowedList(bot, `MHDev91`);
+// botActions.follow(bot, `angular`);
+botActions.followStatus(bot, `angular`)
